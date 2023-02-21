@@ -94,6 +94,8 @@ body {
 .bcg-color {
     background-color: var(--bcg-main-page-footer-color);
     color: var(--white-color);
+
+    padding-top: 138px;
 }
 
 .title-solutions {
@@ -116,6 +118,10 @@ body {
     min-width: 169px;
     height: 56px;
 }
+.button-color:hover, .button-color:focus {
+    cursor: pointer;
+} 
+
 
 .list {
     list-style: none;
@@ -226,9 +232,11 @@ body {
 .accent-btn:hover, .accent-btn:focus {
     background-color: var(--accent-portf-btn-color);
     color: #FFFFFF;
+    cursor: pointer;
 
     border: 1px solid transparent;
     border-radius: 4px;
+
 }
 
 .text-parametr {
@@ -248,6 +256,7 @@ body {
     margin-right: auto;
     outline: 2px solid tomato;
     width: 1158px;
+    padding-top: 24px;
 }
 
 .button-size {
@@ -292,4 +301,28 @@ body {
 
 .image-margin {
     margin-bottom: 40px;
+}
+
+.container-footer {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    width: 1158px;
+   
+}
+
+.container-portfolio {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    width: 1158px;
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.button-padding {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    margin-bottom: 84px;
 }
