@@ -27,8 +27,6 @@
     --bcg-portf-buttom-color: #F4F4FD;
     --portf-buttom-text-color: #4D5AE5;
     --accent-portf-btn-color: #404BBF;
-
-
 }
 
 body {
@@ -71,6 +69,8 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+
+    margin-left: 156px;
     
  }
 
@@ -100,6 +100,10 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 48px;
+    outline: 2px solid tomato;
 }
 
 .button-color {
@@ -108,10 +112,15 @@ body {
     border: var(--iris-color);
     font-size: 16px;
     font-family: Roboto, sans-serif;
+
+    min-width: 169px;
+    height: 56px;
 }
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -127,6 +136,12 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+
+    margin-top: 0;
+    margin-bottom: 8px;
+    
+    /* text-align: center; */
+    /* background: #FFFFFF; */
 }
 
 .title-second-level {
@@ -136,12 +151,20 @@ body {
     line-height: 1,11;
     text-align: center;
     text-transform: capitalize;
+
+    margin-top: 0;
+    margin-bottom: 72px;
+    /* padding-bottom: 120px; */
+    
 }
 
 
 .decription {
     font-size: 16px;
     line-height: 1.5;
+
+    /* margin-top: 0; */
+    /* margin-bottom: 120px; */
 }
 
 .footer-text-color {
@@ -149,10 +172,22 @@ body {
 
     font-size: 16px;
     line-height: 1.5;
+    
+    padding-bottom: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 264px;
+    
+    margin-left: 156px;
+    box-sizing: border-box;
 }
 
 .bcg-our-team {
     background: var(--bcg-our-team-color);
+    /* background: tomato; */
+
+    margin-top: 0;
+    outline: 2px solid tomato;
 }
 
 .footer-design-color {
@@ -160,6 +195,7 @@ body {
 
     font-size: 18px;
     line-height: 1.17;
+    
 }
 
 .footer-web-color {
@@ -167,6 +203,11 @@ body {
 
     font-size: 18px;
     line-height: 1.17;
+    margin-left: 156px;
+    /* padding-top: 100px; */
+    margin-bottom: 16px;
+    /* margin-top: 0; */
+    /* padding-top: 100px; */
 }
 
 /* portfolio */
@@ -185,6 +226,9 @@ body {
 .accent-btn:hover, .accent-btn:focus {
     background-color: var(--accent-portf-btn-color);
     color: #FFFFFF;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .text-parametr {
@@ -196,4 +240,56 @@ body {
 .paragraph-parametr {
     font-size: 16px;
     line-height: 1.5;
+}
+
+/* main page home task 3 */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    width: 1158px;
+}
+
+.button-size {
+    height: 48px;
+    min-width: 69px;
+    background-color: var(--cloud-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+}
+
+
+.container-title-margin {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.container-padding {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    width: 1158px;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.containeer-padding-team {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    width: 1158px;
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.p-padding {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.image-margin {
+    margin-bottom: 40px;
 }
