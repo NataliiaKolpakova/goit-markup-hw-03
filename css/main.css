@@ -422,20 +422,18 @@ body {
 }
 
 .page-list li:nth-child(3n) {
-    margin-bottom: 0;
     margin-right: 0;
+}
+
+.page-list li:nth-child(n + 7) {
+    margin-bottom: 0;
 }
 
 .flex-element {
-  
     margin-bottom: 48px;
 }
 
-/* .flex-element:nth-child(3n) {
-    margin-right: 0;
-    margin-bottom: 0;
-    
-} */
+
 
 .border {
     border-bottom: 1px solid #E7E9FC;
